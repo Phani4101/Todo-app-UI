@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="todo-container">
+    <div class="first-container">
+        <div class="main-head"><hr class="head-hr"><span class="head-title">Trip to paris</span><hr class="head-hr"></div>
+        <div class="head"><a href="./index.html"><i class="fa fa-arrow-circle-left" style="font-size:40px;color:rgb(231,76,60)"></i></a><span class="head-body">Back</span></div>
+    </div>
+    <div class="secondary-container">
+        <div class="list">
+          <div class="list-heading">
+            <p class="title">Trip to paris</p>
+            <hr>
+          </div>
+          <div class="list-body">
+            <div class="complete-task">
+              <p>Complete Task</p></div>
+            <p><input type="checkbox">Pending Task</p>
+            <i class="fa fa-plus-circle" id="plus1" onclick="func1()" style="font-size:40px;color:rgb(231,76,60)"></i>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div id="popup1" class="poppop1">
+      <div class="card">
+        <div class="card-text">Add New Item</div>
+        <input type="text" class="input"  placeholder="Add New Item">
+        <div class="button">
+        <button type="submit" class="button-btn"><a href="./index2.html" class="Add-Close">Add</a></button>
+        <button type="submit" class="button-btn"><a href="./index2.html" class="Add-Close">Close</a></button>
+    </div>
+  
+  
+      </div>
+  
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
