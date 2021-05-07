@@ -183,7 +183,7 @@ a{
         text-decoration: none;
         color: white;
     }
-    @media only screen and (max-width:650px) {
+    @media only screen and (max-width:720px) {
         #todo-container{
             width: 95%;
         }
