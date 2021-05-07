@@ -178,7 +178,10 @@ body{
     }
     
 @media Only screen and (max-width:650px) {
-   .first-container{
+    #todo-container{
+        width: 95%;
+    }
+    .first-container{
        display: flex;
        flex-direction: row-reverse;
        flex-wrap: wrap;
